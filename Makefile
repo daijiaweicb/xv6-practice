@@ -198,7 +198,9 @@ UPROGS=\
 	$U/_pingpong\
 	$U/_process\
 	$U/_test\
-
+	$U/_primes\
+	$U/_find\
+	$U/_xargs\
 
 
 

@@ -28,7 +28,7 @@ ls(char *path)
 {
   char buf[512], *p;
   int fd;
-  struct dirent de;
+  struct dirent  de;
   struct stat st;
 
   if((fd = open(path, O_RDONLY)) < 0){
